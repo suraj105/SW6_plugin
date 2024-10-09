@@ -6,7 +6,8 @@ Shopware.Component.register('birthday-checker-index', {
 
     data() {
         return {
-            message: 'Welcome to the Birthday Checker!'
+            message: 'Welcome to Birthday Checker!'
         };
     }
+
 });
