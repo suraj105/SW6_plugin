@@ -1,6 +1,6 @@
 import template from './sw-customer-detail.html.twig';
 
-Shopware.Component.override('sw-customer-detail', {
+Shopware.Component.override('birthday-checker-module', {
     template,
 
     inject: ['repositoryFactory'],

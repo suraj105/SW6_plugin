@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://shopware.com/schema/config.xsd">
-    <card>
-        <title>Settings</title>
-        <input-field type="text">
-            <name>birthdayField</name>
-            <label lang="en-GB">Customer Birthday Field</label>
-            <label lang="de-DE">Kunden Geburtstag</label>
-            <defaultValue></defaultValue>
-        </input-field>
-    </card>
+<config>
+    <javascript>
+        <file>src/main.js</file>
+    </javascript>
 </config>

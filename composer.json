@@ -1,6 +1,6 @@
 {
   "name": "custom/birthday-checker",
-  "description": "A Shopware 6 plugin to add a Birthday Info tab to Customer Details.",
+  "description": "A Shopware 6 plugin to add a Birthday Checker tab in the admin menu.",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "version": "1.0.0",
