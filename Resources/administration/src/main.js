@@ -1,4 +1,4 @@
-import './module/birthday-checker-module'; // Import the module
+import './module/birthday-checker-module';
 
 const { Module } = Shopware;
 
@@ -9,7 +9,6 @@ Module.register('birthday-checker', {
     description: 'Birthday Checker Tab in the Main Administration Navigation',
     version: '1.0.0',
     targetVersion: '1.0.0',
-
     routes: {
         index: {
             component: 'birthday-checker-index',
@@ -20,10 +19,10 @@ Module.register('birthday-checker', {
     // Add the menu entry in the main admin navigation
     navigation: [{
         label: 'Birthday Checker',
-        color: '#ffcc00',  // Customize color
+        color: '#ffcc00',
         path: 'birthday.checker.index',
-        icon: 'default-action-settings',  // Choose an icon
-        parent: 'sw-customer',  // Put it under 'Customers'
+        icon: 'default-action-settings',
+        parent: 'sw-customer',  // Place it under 'Customers'
         position: 100
     }]
 });
